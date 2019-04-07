@@ -6,7 +6,7 @@ def reverse_string(a_string):
     str_rev = []
     # walk through the string like an array
     for c in list(a_string):
-    str_rev.insert(0, c)
+        str_rev.insert(0, c)
 
     return "".join(str_rev)
 
